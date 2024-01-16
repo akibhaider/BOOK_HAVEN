@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>customer_login</class>
+ <widget class="QDialog" name="customer_login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>759</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>541</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>138</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="icons.qrc">:/login-book.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>128</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="loginGroup">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>450</y>
+     <width>485</width>
+     <height>267</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 20pt &quot;Yu Gothic&quot;;
+border-color: rgb(196, 178, 255);
+border-color: rgb(170, 0, 255);
+color: rgb(0, 21, 48);</string>
+   </property>
+   <property name="title">
+    <string>Customer Login Panel</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 700 20pt &quot;Lato&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 700 20pt &quot;Lato&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="password_customer">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font:24px
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QLineEdit" name="username_customer">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QPushButton" name="forgetPasswdBtn_customer">
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #0c0033;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 13pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+
+background:#ababab;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Forgot Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QPushButton" name="loginButton_customer">
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #0c0033;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 13pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+
+background:#ababab;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QPushButton" name="signUpButton_customer">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #0c0033;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 13pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+
+background:#ababab;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+      </property>
+      <property name="text">
+       <string>New to BookHaven? </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="button_customer_to_admin">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>740</y>
+     <width>147</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #0c0033;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+
+background:#ababab;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Admin Login</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_customer_to_admin_2">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>740</y>
+     <width>147</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #0c0033;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+
+background:#ababab;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+   </property>
+   <property name="text">
+    <string>About Us</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
