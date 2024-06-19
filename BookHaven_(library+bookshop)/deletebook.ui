@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(240, 128, 128);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <widget class="QFrame" name="frame">
@@ -58,9 +61,9 @@ color: rgb(0, 0, 0);</string>
            <string notr="true">QPushButton{
 border-radius:15px;
 padding : 0 4px;
-background: #0c0033;
+background: #FFFFE0;
 border -radius:10px;
-color: rgb(255, 255, 255);
+color: #000000;
 font: 12pt &quot;Lato Black&quot;;
 }
 QPushButton:hover:!pressed

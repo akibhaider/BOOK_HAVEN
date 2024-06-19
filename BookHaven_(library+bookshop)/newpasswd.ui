@@ -13,12 +13,15 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(224, 255, 255);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="styleSheet">
       <string notr="true">font: 700 20pt &quot;Yu Gothic&quot;;
-border-color: rgb(196, 178, 255);
+background-color: rgb(224, 255, 255);
 border-color: rgb(170, 0, 255);
 color: rgb(0, 21, 48);</string>
      </property>
@@ -42,7 +45,7 @@ color: rgb(0, 21, 48);</string>
          <string notr="true">QPushButton{
 border-radius:15px;
 padding : 0 4px;
-background: #808080;
+background: #0c0033;
 border -radius:10px;
 color: rgb(255, 255, 255);
 font: 15pt &quot;Lato&quot;;
@@ -50,7 +53,7 @@ font: 15pt &quot;Lato&quot;;
 QPushButton:hover:!pressed
 {
 
-background:#080000;
+background:#ababab;
 }
 QToolButton
 {
@@ -58,12 +61,6 @@ QToolButton
 border-radius:10px;
 bacground:red;
 color:red;
-}
-
-QPushButton:pressed
-{
-              font-size: 19px;
-              transition: 0.9s; 
 }</string>
         </property>
         <property name="text">
@@ -87,7 +84,7 @@ QPushButton:pressed
          <string notr="true">QPushButton{
 border-radius:15px;
 padding : 0 4px;
-background: #808080;
+background: #0c0033;
 border -radius:10px;
 color: rgb(255, 255, 255);
 font: 15pt &quot;Lato&quot;;
@@ -95,7 +92,7 @@ font: 15pt &quot;Lato&quot;;
 QPushButton:hover:!pressed
 {
 
-background:#080000;
+background:#ababab;
 }
 QToolButton
 {
@@ -103,12 +100,6 @@ QToolButton
 border-radius:10px;
 bacground:red;
 color:red;
-}
-
-QPushButton:pressed
-{
-              font-size: 19px;
-              transition: 0.9s; 
 }</string>
         </property>
         <property name="text">

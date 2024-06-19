@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #E6FFE6;</string>
+  </property>
   <widget class="QLabel" name="name_2">
    <property name="geometry">
     <rect>
@@ -515,27 +518,59 @@ color: rgb(0, 0, 0);</string>
   <widget class="QPushButton" name="buy_button">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>30</y>
-     <width>80</width>
-     <height>21</height>
+     <x>600</x>
+     <y>20</y>
+     <width>111</width>
+     <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:7px;
+padding : 0 2px;
+background: rgb(51, 51, 51);
+border -radius:10px;
+color: rgb(240, 240, 240);
+font: 12pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+border-radius:5px;
+background:#ababab;
+}
+</string>
+   </property>
    <property name="text">
-    <string>Buy</string>
+    <string>PURCHASE</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>602</x>
-     <y>80</y>
+     <x>220</x>
+     <y>490</y>
      <width>111</width>
-     <height>29</height>
+     <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:7px;
+padding : 0 2px;
+background: rgb(51, 51, 51);
+border -radius:10px;
+color: rgb(240, 240, 240);
+font: 12pt &quot;Lato&quot;;
+}
+QPushButton:hover:!pressed
+{
+border-radius:5px;
+background:#ababab;
+}
+</string>
+   </property>
    <property name="text">
-    <string>My BookHaven</string>
+    <string>RETURN</string>
    </property>
   </widget>
   <zorder>pushButton</zorder>

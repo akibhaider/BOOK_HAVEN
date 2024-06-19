@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230, 255, 230);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_10">
    <property name="leftMargin">
     <number>11</number>
@@ -20,7 +23,7 @@
    <item>
     <widget class="QFrame" name="frame_4">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(241, 255, 224);</string>
+      <string notr="true">background-color: rgb(230, 255, 230);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
@@ -204,8 +207,8 @@ background:#ffcb3b;
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background: #333333;
-border-radius: 8px;</string>
+       <string notr="true">border-radius: 8px;
+background-color: rgb(0, 51, 51);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -218,7 +221,7 @@ border-radius: 8px;</string>
         <widget class="QLabel" name="label">
          <property name="styleSheet">
           <string notr="true">color: rgb(255, 255, 255);
-font: 15pt &quot;Lato Black&quot;;</string>
+font: 22pt &quot;Lato Black&quot;;</string>
          </property>
          <property name="text">
           <string>ADMIN</string>
@@ -232,7 +235,7 @@ font: 15pt &quot;Lato Black&quot;;</string>
         <widget class="QLabel" name="username">
          <property name="styleSheet">
           <string notr="true">color: rgb(255, 255, 255);
-font: 12pt &quot;Lato&quot;;</string>
+font: 19pt &quot;Lato&quot;;</string>
          </property>
          <property name="text">
           <string>[+username]</string>
@@ -445,7 +448,7 @@ background:#ffcb3b;
 </string>
        </property>
        <property name="text">
-        <string>---</string>
+        <string>Edit Viewer Info</string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -740,7 +743,7 @@ background:#ffcb3b;
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #ffffff;
+       <string notr="true">background-color: rgb(245, 255, 250);
 border-radius: 8px;</string>
       </property>
       <property name="frameShape">
@@ -754,6 +757,9 @@ border-radius: 8px;</string>
         <layout class="QHBoxLayout" name="horizontalLayout_2">
          <item>
           <widget class="QLabel" name="cover_1">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(245, 255, 250);</string>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -787,15 +793,15 @@ border-radius: 8px;</string>
      <widget class="QFrame" name="frame_9">
       <property name="geometry">
        <rect>
-        <x>240</x>
+        <x>230</x>
         <y>270</y>
-        <width>321</width>
+        <width>341</width>
         <height>151</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #ababab;
-border-radius: 8px;</string>
+       <string notr="true">border-radius: 8px;
+background-color: rgb(0, 51, 51);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -810,6 +816,7 @@ border-radius: 8px;</string>
           <widget class="QLabel" name="label_24">
            <property name="styleSheet">
             <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 240);
 text-decoration: underline;
 font: 63 italic 13pt &quot;Lato Black&quot;;
 
@@ -847,13 +854,13 @@ font: 63 24pt &quot;Lato Black&quot;;
        <rect>
         <x>410</x>
         <y>110</y>
-        <width>151</width>
+        <width>161</width>
         <height>151</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #ababab;
-border-radius: 8px;</string>
+       <string notr="true">border-radius: 8px;
+background-color: rgb(0, 51, 51);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -868,6 +875,7 @@ border-radius: 8px;</string>
           <widget class="QLabel" name="label_13">
            <property name="styleSheet">
             <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 240);
 text-decoration: underline;
 font: 63 italic 13pt &quot;Lato Black&quot;;
 
@@ -906,15 +914,15 @@ font: 63 24pt &quot;Lato Black&quot;;
       </property>
       <property name="geometry">
        <rect>
-        <x>240</x>
+        <x>230</x>
         <y>110</y>
-        <width>151</width>
+        <width>161</width>
         <height>151</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #ababab;
-border-radius: 8px;</string>
+       <string notr="true">border-radius: 8px;
+background-color: rgb(0, 51, 51);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -932,6 +940,7 @@ border-radius: 8px;</string>
           <widget class="QLabel" name="label_20">
            <property name="styleSheet">
             <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 240);
 text-decoration: underline;
 font: 63 italic 13pt &quot;Lato Black&quot;;
 

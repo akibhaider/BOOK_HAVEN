@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(173, 216, 230);</string>
+  </property>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
@@ -118,6 +124,15 @@ color: rgb(0, 0, 0);</string>
      <height>31</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Lato Black</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">
 text-decoration: underline;
@@ -156,10 +171,10 @@ color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>100</y>
-     <width>551</width>
-     <height>31</height>
+     <x>0</x>
+     <y>150</y>
+     <width>561</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -197,11 +212,32 @@ color: rgb(0, 0, 0);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 240);
+background-color: rgb(255, 229, 180);
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 224);
+selection-color: rgb(3, 3, 3);
+border-color: rgb(224, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Back to Main Menu</string>
+   </property>
+  </widget>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>160</y>
+     <y>100</y>
      <width>551</width>
      <height>31</height>
     </rect>
@@ -213,23 +249,10 @@ font: 13pt &quot;Lato &quot;;
 color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
-    <string>210041222 - Akib Haider</string>
+    <string>210041222 - MD Akib Haider</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>141</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Back to Main Menu</string>
    </property>
   </widget>
  </widget>

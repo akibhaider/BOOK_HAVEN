@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-    <height>1006</height>
+    <height>804</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,14 +16,15 @@
   <widget class="QFrame" name="frame_4">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
+     <x>-20</x>
+     <y>-10</y>
      <width>911</width>
-     <height>1011</height>
+     <height>837</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(43, 43, 43);</string>
+    <string notr="true">background-color: rgb(51, 51, 51);
+</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -34,9 +35,9 @@
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>811</width>
+      <x>190</x>
+      <y>20</y>
+      <width>431</width>
       <height>81</height>
      </rect>
     </property>
@@ -55,7 +56,7 @@ border-radius: 8px;</string>
       <widget class="QLabel" name="label_2">
        <property name="styleSheet">
         <string notr="true">color: rgb(4, 0, 133);
-font: 15pt &quot;Lato&quot;;</string>
+font: 19pt &quot;Lato&quot;;</string>
        </property>
        <property name="text">
         <string>Welcome Back!</string>
@@ -69,7 +70,7 @@ font: 15pt &quot;Lato&quot;;</string>
       <widget class="QLabel" name="username">
        <property name="styleSheet">
         <string notr="true">color: rgb(0,0,0);
-font: 13pt &quot;Lato&quot;;</string>
+font: 17pt &quot;Lato&quot;;</string>
        </property>
        <property name="text">
         <string>[+username]</string>
@@ -91,7 +92,7 @@ font: 13pt &quot;Lato&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #ffffff;
+     <string notr="true">background-color: rgb(156, 255, 182);
 border-radius: 8px;</string>
     </property>
     <property name="frameShape">
@@ -106,8 +107,8 @@ border-radius: 8px;</string>
        <item>
         <widget class="QLabel" name="bookNum">
          <property name="styleSheet">
-          <string notr="true">color: #000d57;
-font: 63 24pt &quot;Lato Black&quot;;
+          <string notr="true">color: #333333;
+font: 63 23pt &quot;Lato Black&quot;;
 </string>
          </property>
          <property name="text">
@@ -132,7 +133,7 @@ font: 63 24pt &quot;Lato Black&quot;;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #ffffff;
+     <string notr="true">background-color: rgb(156, 255, 182);
 border-radius: 8px;</string>
     </property>
     <property name="frameShape">
@@ -147,8 +148,8 @@ border-radius: 8px;</string>
        <item>
         <widget class="QLabel" name="authorNum">
          <property name="styleSheet">
-          <string notr="true">color: #000d57;
-font: 63 24pt &quot;Lato Black&quot;;
+          <string notr="true">color: #333333;
+font: 63 23pt &quot;Lato Black&quot;;
 </string>
          </property>
          <property name="text">
@@ -166,8 +167,8 @@ font: 63 24pt &quot;Lato Black&quot;;
    <widget class="QPushButton" name="returnBookBtn_3">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>730</y>
+      <x>90</x>
+      <y>750</y>
       <width>311</width>
       <height>31</height>
      </rect>
@@ -204,8 +205,8 @@ background:#ababab;
    <widget class="QPushButton" name="returnBookBtn_4">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>730</y>
+      <x>440</x>
+      <y>750</y>
       <width>311</width>
       <height>31</height>
      </rect>
@@ -243,7 +244,7 @@ background:#ababab;
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>380</y>
+      <y>400</y>
       <width>731</width>
       <height>221</height>
      </rect>
@@ -299,7 +300,7 @@ border-radius: 8px;</string>
       <x>60</x>
       <y>690</y>
       <width>731</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -338,9 +339,9 @@ QPushButton:pressed
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>650</y>
+      <y>640</y>
       <width>731</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -375,56 +376,6 @@ QPushButton:pressed
      <string>Buy Books</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="booksListBtn">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>610</y>
-      <width>731</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-border-radius:15px;
-padding : 0 4px;
-background: #78acfa;
-border -radius:10px;
-color: rgb(255, 255, 255);
-font: 13pt &quot;Lato&quot;;
-}
-QPushButton:hover:!pressed
-{
-
-background:#ababab;
-}
-QToolButton
-{
-
-border-radius:10px;
-bacground:red;
-color:red;
-}
-
-QPushButton:pressed
-{
-              font-size: 19px;
-              transition: 0.9s; 
-}</string>
-    </property>
-    <property name="text">
-     <string>Books List</string>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>false</bool>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
@@ -437,7 +388,7 @@ QPushButton:pressed
     <property name="styleSheet">
      <string notr="true">text-decoration:underline;
 color: rgb(255, 255, 255);
-font: 15pt &quot;Lato&quot;;</string>
+font: 17pt &quot;Lato&quot;;</string>
     </property>
     <property name="text">
      <string>Why are we the best?</string>
@@ -450,14 +401,14 @@ font: 15pt &quot;Lato&quot;;</string>
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>150</y>
+      <y>160</y>
       <width>731</width>
       <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(156, 255, 182);
-font: 15pt &quot;Lato&quot;;</string>
+font: 17pt &quot;Lato&quot;;</string>
     </property>
     <property name="text">
      <string>Because we provide you with the best collection of:</string>
@@ -510,7 +461,7 @@ font: 15pt &quot;Lato&quot;;</string>
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>330</y>
+      <y>340</y>
       <width>241</width>
       <height>41</height>
      </rect>

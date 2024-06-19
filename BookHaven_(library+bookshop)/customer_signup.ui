@@ -16,14 +16,15 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>0</x>
      <y>0</y>
-     <width>501</width>
-     <height>391</height>
+     <width>551</width>
+     <height>441</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 700 20pt &quot;Yu Gothic&quot;;
+background-color: rgb(224, 255, 255);
 border-color: rgb(196, 178, 255);
 border-color: rgb(170, 0, 255);
 color: rgb(0, 21, 48);</string>
