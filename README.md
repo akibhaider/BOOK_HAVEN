@@ -48,4 +48,4 @@ Getting started:
 2. **Setup Qt environment**:
    Install and setup Qt GUI library. (Downloading all the 4 packages are preferred). Setup any SQL database(Q-SQL preferred and used here. You may change Database.h and other dependent files to connect other database as well).
 3. **Run Application**:
-   Setup c++ working envirionemt in any code editior (or Qt IDE) and launch the "Library.pro" file and  'Welcome to BookHaven, Bookworms!!'
+   Setup c++ working envirionemt in any code editior (or Qt Creator Community Edition IDE for free) and launch the "Library.pro" file and  'Welcome to BookHaven, Bookworms!!'
