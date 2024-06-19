@@ -33,6 +33,10 @@ A smart book management system to manage your local bookshop or library
 3. **Manage Customer**:
    - Add or Remove any user and change permissions any time when required.
 
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
 ## Installation
 
 Getting started:
