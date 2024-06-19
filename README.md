@@ -35,7 +35,8 @@ A smart book management system to manage your local bookshop or library
 
 ## Demo Video
 
-[![Watch the demo](https://youtu.be/xOI1AidMRpo?si=VNtJgd3Z9cWqGq1n)
+[![Watch the demo](https://img.youtube.com/vi/xOI1AidMRpo/0.jpg)](https://www.youtube.com/watch?v=xOI1AidMRpo)
+
 
 ## Installation
 
