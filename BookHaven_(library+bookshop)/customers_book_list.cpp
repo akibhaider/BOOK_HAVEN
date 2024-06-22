@@ -102,7 +102,7 @@ void customers_book_list::showInfo()
     ui->coverLabel->setPixmap(_cover);
    // ui->publisher->setText(publisher);
    // ui->price->setText(price);
-  //  ui->quantity->setText(quantity);
+   //  ui->quantity->setText(quantity);
    // ui->date->setText(date);
    // ui->desc->setText(desc);
 

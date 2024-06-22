@@ -70,8 +70,4 @@ void addMember::setValidator(){
     QRegularExpression email("^[a-zA-Z0-9_.-]+@[a-zA-Z0-9.-]+$");
     QRegularExpressionValidator *valMail = new QRegularExpressionValidator(email, this);
     ui->email->setValidator(valMail);
-
-
-
-
 }

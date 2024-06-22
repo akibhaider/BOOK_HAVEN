@@ -68,10 +68,6 @@ void customer_panel::connectDB()
         QMessageBox::critical(this,"Info","Cannot create bookStatus Table");
 
 
-
-
-
-
     //Create a table named genres
     QString genreTable{"CREATE TABLE IF NOT EXISTS genres"
                        "(ID INTEGER, name VARCHAR(20))"};
@@ -309,10 +305,7 @@ void customer_panel::showCover(){
 
 
 
-void customer_panel::on_verticalScrollBar_actionTriggered(int action)
-{
-
-}
+void customer_panel::on_verticalScrollBar_actionTriggered(int action){}
 
 
 void customer_panel::on_pushButton_buy_clicked()
@@ -336,7 +329,6 @@ void customer_panel::on_returnBookBtn_4_clicked()
     cust_log.exec();
 
 }
-
 
 void customer_panel::on_returnBookBtn_3_clicked()
 {

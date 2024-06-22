@@ -15,7 +15,7 @@ editBook::editBook(QWidget *parent) :
     ui(new Ui::editBook)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Edit Book");
+    this->setWindowTitle("Edit Book Info");
     ui->date->setDate(QDate::currentDate());
 
     setValidator();

@@ -10,9 +10,7 @@
 QString isb,_name,_author,_genre,_price,_publisher,_cover;
 int quan=0;
 
-bookcart::bookcart(QWidget *parent)
-    : QDialog(parent)
-    , ui(new Ui::bookcart)
+bookcart::bookcart(QWidget *parent): QDialog(parent), ui(new Ui::bookcart)
 {
     ui->setupUi(this);
     this->setWindowTitle("Book Cart");

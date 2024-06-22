@@ -68,7 +68,5 @@ void deleteBook::on_deleteBookBtn_clicked()
     }
     else
         QMessageBox::warning(this, "Failed", "Insert ID");
-
-
 }
 

@@ -1,5 +1,3 @@
 #include "backbtnclass.h"
 
-backBtnclass::backBtnclass() {
-
-}
+backBtnclass::backBtnclass() {}

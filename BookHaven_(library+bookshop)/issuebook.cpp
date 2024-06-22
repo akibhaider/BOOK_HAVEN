@@ -107,8 +107,6 @@ void IssueBook::on_searchMember_clicked()
     }
     else
         QMessageBox::critical(this,"Failed", "Member Not found");
-
-
 }
 
 

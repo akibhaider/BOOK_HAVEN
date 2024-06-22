@@ -119,7 +119,7 @@ void addBook::setValidator(){
     QRegularExpressionValidator *ISBNVal = new QRegularExpressionValidator(ISBN, this);
     ui->ISBN->setValidator(ISBNVal);
 
-    //regx for name
+    //regex for name
     QRegularExpression Name("^(?:[a-zA-Z0-9_+\\-\\s]{1000})$");
     QRegularExpressionValidator *valName = new QRegularExpressionValidator(Name, this);
     ui->Name->setValidator(valName);
@@ -138,4 +138,3 @@ void addBook::on_chooseGenreBtn_clicked()
     genre.exec();
     ui->Genre->addItem(genre.genre);
 }
-
